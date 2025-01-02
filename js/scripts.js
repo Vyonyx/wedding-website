@@ -960,7 +960,7 @@ var Neela;
           $submit_btn.addClass("disabled");
 
           $.ajax({
-            type: "POST",
+            method: "POST",
             url: "contact.php",
             data: html,
             success: function (msg) {
