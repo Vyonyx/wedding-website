@@ -4927,6 +4927,10 @@ section.side-flowers {
   border-color: #f9f9f9 transparent transparent transparent;
 }
 
+.thankyou_message {
+  text-align: center;
+}
+
 #rsvp-2 {
   background: linear-gradient(#336659 50%, #fff 50%) no-repeat;
 }
