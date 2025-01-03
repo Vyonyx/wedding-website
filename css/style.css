@@ -2059,106 +2059,6 @@ p.center {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
-.element .image .hover-info {
-  --offset: 10px;
-  --border-size: 1px;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  border: 36px solid transparent;
-  background-color: rgba(255, 255, 255, 0.85);
-  text-align: left;
-  z-index: 1;
-  -moz-transition: all 0.3s;
-  -o-transition: all 0.3s;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  -khtml-opacity: 0;
-  -moz-opacity: 0;
-  opacity: 0;
-}
-.element .image .hover-info .h-lines {
-  transform: scaleX(0);
-  border-top-color: #336659;
-  border-bottom-color: #336659;
-  -khtml-opacity: 0.5;
-  -moz-opacity: 0.5;
-  opacity: 0.5;
-}
-.element .image .hover-info .v-lines {
-  transform: scaleY(0);
-  border-left-color: #336659;
-  border-right-color: #336659;
-  -khtml-opacity: 0.5;
-  -moz-opacity: 0.5;
-  opacity: 0.5;
-}
-.element .image .hover-info .content {
-  width: 100%;
-  height: auto;
-  padding: 15px;
-  overflow: auto;
-  position: relative;
-  z-index: 1;
-  text-align: center;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -moz-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-.element .image .hover-info .content p {
-  width: 100%;
-  margin-bottom: 20px;
-}
-.element .image .hover-info .sn-icons {
-  float: none;
-  position: relative;
-  margin: 0;
-  padding: 0;
-  text-align: center;
-  width: 100%;
-}
-.element .image .hover-info .sn-icons a {
-  color: #336659;
-}
-.element .image .hover-info h3 {
-  margin-bottom: 33px;
-  position: relative;
-  font-family: "Playfair Display", serif;
-  font-size: 30pt;
-}
-.element .image .hover-info h3 small {
-  display: block;
-  font-size: 12pt;
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  text-transform: uppercase;
-  margin-top: 6px;
-}
-.element .image:hover {
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-}
-.element .image:hover .hover-info {
-  -khtml-opacity: 1;
-  -moz-opacity: 1;
-  opacity: 1;
-}
-.element .image:hover .hover-info .h-lines {
-  transform: scaleX(1);
-}
-.element .image:hover .hover-info .v-lines {
-  transform: scaleY(1);
-}
-.element .image:hover img {
-  webkit-filter: blur(4px) grayscale(80%) brightness(1.4);
-  filter: blur(4px) grayscale(80%) brightness(1.4);
-}
 
 .divider-about-us {
   position: absolute;
@@ -2484,11 +2384,12 @@ p.center {
   text-align: center;
   color: #fff;
   font-family: "Playfair Display", serif;
-  background-image: url("../images/raunculus.jpg");
+  background-image: url("../images/white-peonies.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-  filter: grayscale(100%);
-  -webkit-filter: grayscale(100%);
+}
+#our-story-title::before {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 #our-story-title .section-title {
   margin-bottom: 0;
