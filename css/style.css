@@ -1766,10 +1766,12 @@ p.center {
 }
 .hero-wrapper .hero-subtitle span {
   font-family: "Playfair Display", serif;
-  font-size: 50pt;
+}
+.hero-wrapper .hero-subtitle span:not(.and) {
+  margin: 0 14px;
   position: relative;
   top: 10px;
-  margin: 0 14px;
+  font-size: 50pt;
 }
 .hero-wrapper .btn {
   margin-top: 40px;

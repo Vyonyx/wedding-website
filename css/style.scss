@@ -1886,10 +1886,12 @@ p.center{
 
 		span{
 			font-family: $highlight-ff;
-			font-size:50pt;
-			position: relative;
-			top: 10px;
-			margin: 0 14px;
+      &:not(.and) {
+        margin: 0 14px;
+        position: relative;
+        top: 10px;
+        font-size:50pt;
+      }
 		}
 	}
 
